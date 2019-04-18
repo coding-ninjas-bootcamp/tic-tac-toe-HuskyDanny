@@ -1,15 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Your code goes here -->
-    <h1>Tic Tac Toe</h1>
-    <script src="main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="players">
+        <div>
+            <span class="play p0">Player1</span> 
+            <br>
+            <span class="active p0bar">______</span>
+            <br>
+            <span class="winner w0">Winner</span>
+        </div>
+            <button class="btn-restart">Restart the Game</button>
+        <div>
+            <span class="play p1">Player2</span> 
+            <br>
+            <span class="active p1bar">______</span>
+            <br>
+            <span class="winner w1">Winner</span>
+        </div>
+    </section>
+    <section class="board">
+        <div class="row1">
+            <div class="box" id="grid-00">
+
+            </div>
+            <div class="box" id="grid-01">
+                
+            </div>
+            <div class="box" id="grid-02">
+                
+            </div>
+        </div>
+        <div class="row2">
+            <div class="box" id="grid-10">
+
+            </div>
+            <div class="box" id="grid-11">
+                
+            </div>
+            <div class="box" id="grid-12">
+                
+            </div>
+        </div>
+        <div class="row3">
+            <div class="box" id="grid-20">
+
+            </div>
+            <div class="box" id="grid-21">
+                
+            </div>
+            <div class="box" id="grid-22">
+                
+            </div>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
 </html>
